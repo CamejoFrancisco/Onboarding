@@ -1,0 +1,149 @@
+body, html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .card {
+  width: 375px;
+  height: 812px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 375px;
+  min-width: 283px;
+  min-height: 500px;
+}
+main .card .image {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+  max-width: 300px;
+  margin-bottom: 7px;
+}
+main .card .text {
+  width: 97.0779%;
+  height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 7px;
+}
+main .card .text .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.94px;
+}
+main .card .text .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.2px;
+}
+main .card .pagination {
+  margin-top: 64px;
+  width: 70px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .card .pagination .circle {
+  width: 12px;
+  height: 12px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  cursor: pointer;
+}
+main .card .pagination .selected {
+  background-color: #92E3A9;
+  border-color: transparent;
+}
+main .card .buttons {
+  width: 100%;
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.2;
+  transition: all ease-in-out 0.2s;
+  margin-top: 63px;
+}
+main .card .buttons .continue {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px #A1C3FC;
+  background-color: #92E3A9;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+main .card .buttons .continue:hover {
+  background-color: #73C78B;
+}
+main .card .buttons .skip {
+  margin: 0;
+  padding: 0;
+  top: 100px;
+  color: #92E3A9;
+  width: 100%;
+  height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+main .card .buttons .skip:hover {
+  color: #73C78B;
+}
+main .card .buttons .hide {
+  display: none;
+}
+main .card .skip {
+  margin: 0;
+  padding: 0;
+  top: 100px;
+  color: #92E3A9;
+  width: 100%;
+  height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+main .card .skip:hover {
+  color: #73C78B;
+}
+main .card .skip .hide {
+  display: none;
+}
+
+.illustration0 {
+  background-image: url("img/Online-world-pana.png");
+}
+
+.illustration1 {
+  background-image: url("img/In-no-time-pana-1.png");
+}
+
+.illustration2 {
+  background-image: url("img/Ecommerce-campaign-cuate 1.png");
+}/*# sourceMappingURL=style.css.map */

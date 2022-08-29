@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Onboarding</title>
+    </head>
+    <body>
+        <main>
+            <section class="card">
+                <div class="image"></div>
+                <div class="text">
+                    <span class="title"></span>
+                    <span class="subtitle"></span>
+                </div>
+                <div class="pagination">
+                    <span class="circle" onclick="nextScreen(0)"></span>
+                    <span class="circle" onclick="nextScreen(1)"></span>
+                    <span class="circle" onclick="nextScreen(2)"></span>
+                </div>
+                <div class="buttons">
+                    <div class="continue" onclick="nextScreen()"></div>
+                    
+                </div>
+                <div class="skip" onclick="nextScreen(2)"><p>Skip</p></div>
+            </section>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>

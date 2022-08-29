@@ -1,0 +1,190 @@
+//Colors
+$teal: #92E3A9;
+$primary_hover: #73C78B;
+$white : #FFFFFF;
+
+//Font
+$main-font: 'Poppins', sans-serif;
+
+//Code
+body, html {
+    font-family: $main-font;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    //background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    .card {
+        width: 375px;
+        height: 812px;
+        //background-color: #A1C3FC;
+        display: flex;
+        align-items: center;
+        //justify-content: flex-start;
+        flex-direction: column;
+        //margin-top: 34px;
+        max-width: 375px;
+        min-width: 283px;
+        min-height: 500px;
+        
+        .image {
+            width: 300px;
+            height: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 34px;
+            max-width: 300px;
+            margin-bottom: 7px;
+        }
+
+        .text {
+            width: 97.0779%;
+            height: 103px;
+            //background-color: beige;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 7px;
+        
+            .title {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 30.94px;
+            }
+        
+            .subtitle {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23.2px;
+            }
+        }
+        
+        .pagination {
+            margin-top: 64px;
+            width: 70px;
+            height: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+            .circle {
+                width: 12px;
+                height: 12px;
+                transition: all ease-in-out 0.2s;
+                border-radius: 50%;
+                background-color: $white;
+                border: 1px solid black;
+                cursor: pointer;
+            }
+        
+            .selected {
+                background-color: $teal;
+                border-color: transparent;
+            }
+        }
+
+        .buttons {
+            //background-color: #000000;
+            width: 100%;
+            height: 119px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23.2;
+            transition: all ease-in-out 0.2s;
+            margin-top: 63px;
+            
+            
+            .continue {
+                width: 100%;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                //flex-direction: column;
+                box-shadow: 0px 4px 10px #A1C3FC;
+                background-color: $teal;
+                color: white;
+                font-family: $main-font;
+                text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $primary_hover;
+                }
+            }
+            
+            .skip {
+                margin: 0;
+                padding: 0;
+                //position: absolute;
+                //background-color: red;
+                top: 100px;
+                color: $teal;
+                width: 100%;
+                height: 23px;
+                text-align: center;
+                cursor: pointer;
+                
+                
+                &:hover {
+                    color: $primary_hover;
+                }
+            }
+            
+            .hide {
+                display: none;
+            }
+        }
+
+        .skip {
+            margin: 0;
+            padding: 0;
+            //position: absolute;
+            //background-color: red;
+            top: 100px;
+            color: $teal;
+            width: 100%;
+            height: 23px;
+            text-align: center;
+            cursor: pointer;
+            
+            
+            &:hover {
+                color: $primary_hover;
+            }
+
+            .hide {
+                display: none;
+            }
+        }
+    }
+    
+}
+
+.illustration0 {
+    background-image: url('img/Online-world-pana.png')
+}
+
+.illustration1 {
+    background-image: url('img/In-no-time-pana-1.png')
+}
+
+.illustration2 {
+    background-image: url('img/Ecommerce-campaign-cuate\ 1.png');
+}
